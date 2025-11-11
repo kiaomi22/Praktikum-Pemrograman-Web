@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Jihan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container-nav">
+            <a href="#" class="logo">PORTOFOLIO</a>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#kompetensi">Kompetensi</a></li>
+                    <li><a href="#proyek">Proyek</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container">
+        
+        <section id="tentang" class="hero">
+            <div class="hero-text">
+                <p class="hero-intro">Halo, perkenalkan</p>
+                <h1>Saya Jihan</h1>
+                <p class="hero-deskripsi">
+                    Mahasiswa Teknik Informatika dengan ketertarikan mendalam pada pengembangan perangkat lunak, sistem basis data, dan Internet of Things (IoT).
+                </p>
+                <a href="#proyek" class="btn">Lihat Proyek Saya</a>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="j.jpg" alt="Foto Jihan">
+                </div>
+            </div>
+        </section>
+        
+        <section id="kompetensi">
+            <h2 class="section-title">Kompetensi Utama</h2>
+            <div class="kompetensi-grid">
+                <div class="kompetensi-card">
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, PHP, Laravel, React.js, JavaScript</p>
+                </div>
+                <div class="kompetensi-card">
+                    <h3>Database Management</h3>
+                    <p>MySQL, phpMyAdmin, ERD, Relational Schema</p>
+                </div>
+                <div class="kompetensi-card">
+                    <h3>Internet of Things (IoT)</h3>
+                    <p>ESP8266, ESP32, Sensor, Blynk Platform</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyek">
+            <h2 class="section-title">Proyek Unggulan</h2>
+
+            <div class="proyek-item">
+                <img src="aquarium.jpg" alt="Smart Aquarium IoT" class="project-image">
+                <div class="proyek-deskripsi">
+                    <h4>1. Smart Aquarium / Fish Pond Monitoring System</h4>
+                    <p>Sistem berbasis IoT untuk memantau parameter kualitas air (suhu, pH, kekeruhan) secara real-time menggunakan ESP8266, platform Blynk, dan database MySQL.</p>
+                </div>
+            </div>
+            
+            <div class="proyek-item">
+                <img src="lms.png" alt="LMS EduJihan" class="project-image">
+                <div class="proyek-deskripsi">
+                    <h4>2. Learning Management System – “EduJihan”</h4>
+                    <p>Platform pembelajaran daring berbasis Moodle yang dikustomisasi untuk mendukung manajemen kelas, pengumpulan tugas, serta penilaian otomatis.</p>
+                </div>
+            </div>
+            <div class="proyek-item">
+                <img src="umkm.jpg" alt="Aplikasi Keuangan UMKM" class="project-image">
+                <div class="proyek-deskripsi">
+                    <h4>3. Aplikasi Keuangan UMKM – “Umkas”</h4>
+                    <p>Aplikasi web berbasis Laravel untuk membantu UMKM mencatat transaksi, memantau arus kas, dan menghasilkan laporan keuangan otomatis (fitur CRUD).</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="kontak" class="kontak-section">
+            <h2 class="section-title">Kontak</h2>
+            <p class="form-intro">Punya ide atau pertanyaan? Silakan kirim pesan!</p>
+
+            <form action="#" method="POST" class="contact-form">
+                <label for="nama">Nama Kamu <span class="required">*</span></label>
+                <input type="text" id="nama" name="nama" placeholder="Tulis nama kamu..." required>
+                
+                <label for="email">Email Kamu <span class="required">*</span></label>
+                <input type="email" id="email" name="email" placeholder="email@kamu.com" required>
+                
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" name="pesan" rows="4" placeholder="Apa yang ingin kamu sampaikan?"></textarea>
+                
+                <button type="submit">Kirim Pesan</button>
+            </form>
+            </section>
+
+    </div>
+    
+    <footer class="footer">
+        <p>Dirancang oleh Jihan © 2025</p>
+    </footer>
+
+</body>
+</html>
